@@ -1,0 +1,1 @@
+# Auto Generate Laravel Resourceful CRUD controllers
