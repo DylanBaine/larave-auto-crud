@@ -1,5 +1,5 @@
 <?php
-namespace App\Http\Controllers\Crud;
+namespace [controllerNamespace];
 
 use [fullModelNamespace]
 use App\Http\Controllers\Controller;
