@@ -1,0 +1,36 @@
+<?php
+namespace App\Http\Controllers\Crud;
+
+use [fullModelNamespace]
+use App\Http\Controllers\Controller;
+
+class [model]Controller extends Controller
+{
+
+    public function index()
+    {
+        return [model]::get();
+    }
+
+    public function store(Request $request)
+    {
+        return [model]::create([fillArray]);
+    }
+
+    public function show($id)
+    {
+        return [model]::find($id);
+    }
+
+    public function update(Request $request, $id)
+    {
+        $model = $this->show($id);
+        $model->update([fillArray]);
+        return $this->show($id);
+    }
+
+    public function destroy($id)
+    {
+        $this->show($id)->delete();
+    }
+}

@@ -34,7 +34,7 @@ class CreateController
 
   protected function fillStub(array $keyVals)
   {
-    $controllerStub = File::get(__DIR__ . '/CrudController.stub', false);
+    $controllerStub = File::get(dirname(__DIR__, 1) . '/Stubs/CrudController.stub', false);
     foreach ($keyVals as $key => $value) {
       $controllerStub = str_replace("[$key]", $value, $controllerStub);
     }
