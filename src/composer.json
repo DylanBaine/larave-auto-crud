@@ -1,0 +1,10 @@
+{
+    "name": "baine/laravel-auto-crud",
+    "authors": [
+        {
+            "name": "Dylan",
+            "email": "dylan.baine@yahoo.com"
+        }
+    ],
+    "require": {}
+}
