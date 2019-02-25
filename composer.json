@@ -12,5 +12,12 @@
         }
     },
     "license": "MIT",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Baine\\AutoCrudServiceProvider"
+            ]
+        }
+    }
 }
