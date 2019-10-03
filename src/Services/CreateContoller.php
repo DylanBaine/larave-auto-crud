@@ -32,7 +32,7 @@ class CreateController
 
   protected function getModelClassName()
   {
-    return array_last($this->explodedModelNamespace);
+    return last($this->explodedModelNamespace);
   }
 
   protected function getControllerName()
